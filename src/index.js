@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import GridExample1 from './GridExample1';
 import GridExample2 from './GridExample2';
+import GridExample3 from './GridExample3';
 import reportWebVitals from './reportWebVitals';
+import GridExample4 from './GridExample4';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <GridExample2 />
+    <GridExample4 />
   </React.StrictMode>
 );
 
