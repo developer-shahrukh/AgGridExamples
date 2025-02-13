@@ -19,22 +19,6 @@ const GridExample1=()=>{
   {id: 2,name: "Jonny",phone: "998525986"},
   {id: 3,name: "Ashwini",phone: "8785524656"},
   {id: 4,name: "Abhay",phone: "6568418526"},
-  {id: 5,name: "Tommy",phone: "8547856418"},
-  {id: 1,name: "John Doe",phone: "123123456"},
-  {id: 2,name: "Jonny",phone: "998525986"},
-  {id: 3,name: "Ashwini",phone: "8785524656"},
-  {id: 4,name: "Abhay",phone: "6568418526"},
-  {id: 5,name: "Tommy",phone: "8547856418"},
-  {id: 1,name: "John Doe",phone: "123123456"},
-  {id: 2,name: "Jonny",phone: "998525986"},
-  {id: 3,name: "Ashwini",phone: "8785524656"},
-  {id: 4,name: "Abhay",phone: "6568418526"},
-  {id: 5,name: "Tommy",phone: "8547856418"},
-  {id: 1,name: "John Doe",phone: "123123456"},
-  {id: 2,name: "Jonny",phone: "998525986"},
-  {id: 3,name: "Ashwini",phone: "8785524656"},
-  {id: 4,name: "Abhay",phone: "6568418526"},
-  {id: 5,name: "Tommy",phone: "8547856418"},
  ]);
 
  const [columnDefs,setColumnDefs]=useState([
@@ -42,6 +26,7 @@ const GridExample1=()=>{
   {field: "name",filter:true},
   {field: "phone"}
  ]);
+  
   return (
     <div style={{height:500}}>
       <AgGridReact rowData={data} columnDefs={columnDefs}
